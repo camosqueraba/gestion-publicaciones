@@ -861,7 +861,8 @@ ul.pagination li:hover a {
 /* contact-form
 .................................................. */
 .contact-section .contact-form {
-  width: 100%;
+  /*width: 100%;*/
+  width: 75%;
   display: table;
 }
 .contact-form .contact-input {
@@ -884,7 +885,7 @@ ul.pagination li:hover a {
   transition: all 0.3s;
 }
 .contact-form .materialize-textarea {
-  min-height: 140px;
+  min-height: 100px;
 }
 
 .contact-form input[type=text]:focus:not([readonly]),
@@ -978,7 +979,7 @@ ul.pagination li:hover a {
   background-color: #e5e5e5;
 }
 .sidebar-testimonial .carousel .indicators .indicator-item.active {
-  background-color: #2962ff;
+  background-color: #e82a7a;
 }
 .sidebar-testimonial .carousel-item {
   width: 100%;

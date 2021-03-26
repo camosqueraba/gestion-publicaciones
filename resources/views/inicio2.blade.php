@@ -17,7 +17,7 @@
 		<!-- my css include -->
 		<link rel="stylesheet" type="text/css" href="../resources/css/custom-menu.css">
 		<link rel="stylesheet" type="text/css" href="../resources/css/style.css">
-		<link rel="stylesheet" type="text/css" href="../resources/css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="../resources/css/responsive.css"> 
 
 	</head>
 
@@ -76,13 +76,30 @@
 										<a href="contact.html"> INGRESAR <i class="icofont icofont-simple-down"></i></a>
 										<ul class="dropdown-container">
 											<li>
-												<form action="login">
+												<!--<form action="login">
 													<input type="text">
 													<input type="password">
 													<input type="button" value="ingresar">
 												</form>
-												<a href="404.html">ADMINISTRAR PUBLICACIONES</a>
+												-->
+												<form class="contact-form" action="#">
+													<div class="contact-input">
+														<input id="email" type="email" class="validate">
+														<label for="email" data-error="wrong" data-success="right">Email</label>
+													</div>
+													<!-- email -->
+
+													<div class="contact-input">
+														<input id="password" type="text" class="validate">
+														<label for="password">Password</label>
+													</div>
+													<!-- subject -->
+													<button type="button" class="waves-effect waves-light right">ENTRAR</button>
+												</form>
+												<!-- /.contact-form -->
+												
 											</li>
+											
 										</ul>
 										<!-- /.dropdown-container -->
 									</li>
@@ -527,7 +544,7 @@
 											</p>
 										</li>
 										<li>
-											<i class="icofont icofont-ui-calendar"></i> 5 February'17
+											<i class="icofont icofont-ui-calendar"></i> 5 February 17
 										</li>
 									</ul>
 
@@ -576,7 +593,7 @@
 											</p>
 										</li>
 										<li>
-											<i class="icofont icofont-ui-calendar"></i> 5 February'17
+											<i class="icofont icofont-ui-calendar"></i> 5 February 17
 										</li>
 									</ul>
 
@@ -625,7 +642,7 @@
 											</p>
 										</li>
 										<li>
-											<i class="icofont icofont-ui-calendar"></i> 5 February'17
+											<i class="icofont icofont-ui-calendar"></i> 5 February 17
 										</li>
 									</ul>
 
@@ -674,7 +691,7 @@
 											</p>
 										</li>
 										<li>
-											<i class="icofont icofont-ui-calendar"></i> 5 February'17
+											<i class="icofont icofont-ui-calendar"></i> 5 February 17
 										</li>
 									</ul>
 
